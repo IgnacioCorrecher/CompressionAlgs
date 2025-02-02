@@ -67,8 +67,8 @@ Implement Huffman Coding, a variable-length coding algorithm that compresses dat
 -   **Frequency Table:**
     -   Write a function `build_frequency_table(data: str) -> dict` to count character occurrences.
 -   **Building the Huffman Tree:**
-    -   Implement a function to build a Huffman tree using a priority queue (Python’s `heapq` module).
-    -   Define a simple `Node` class or use tuples for tree nodes.
+    -   Define a simple `Node` class.
+    -   Implement a function to build a Huffman tree.
 -   **Generate Codes:**
     -   Write a function `generate_codes(tree) -> dict` that traverses the tree and assigns a unique binary code to each character.
 -   **Compression & Decompression:**
